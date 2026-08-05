@@ -1,0 +1,37 @@
+log actionLIST_FILES_AND_FOLDERS 'C:\Users\admin\Desktop\securefilemanager' - Status: SUCCESS
+LIST_FILES_AND_FOLDERS 'C:\Users\admin\Desktop\securefilemanager' - Status: SUCCESS
+READ_FILE 'file36' - Status: SUCCESS
+LIST_FILES_AND_FOLDERS 'C:\Users\admin\Desktop\securefilemanager' - Status: SUCCESS
+LIST_FILES_AND_FOLDERS 'C:\Users\admin\Desktop\securefilemanager' - Status: SUCCESS
+LIST_FILES_AND_FOLDERS 'C:\Users\admin\Desktop\securefilemanager' - Status: SUCCESS
+LIST_FILES_AND_FOLDERS 'C:\Users\admin\Desktop\securefilemanager' - Status: SUCCESS
+LIST_FILES_AND_FOLDERS 'C:\Users\admin\Desktop\securefilemanager' - Status: SUCCESS
+LIST_FILES_AND_FOLDERS 'C:\Users\admin\Desktop\securefilemanager' - Status: SUCCESS
+CREATE_FILE 'file12' - Status: SUCCESS
+CREATE_FOLDER 'folder45' - Status: SUCCESS
+LIST_FILES_AND_FOLDERS 'C:\Users\admin\Desktop\securefilemanager' - Status: SUCCESS
+READ_FILE 'file34' - Status: SUCCESS
+READ_FILE 'file.txt' - Status: SUCCESS
+RENAME_FILE 'file.txt to new.txt' - Status: SUCCESS
+CREATE_FILE 'file45' - Status: SUCCESS
+APPEND_TO_FILE 'file12' - Status: SUCCESS
+CREATE_FILE 'verynew.txt' - Status: SUCCESS
+CREATE_FILE 'verynew2' - Status: SUCCESS
+CREATE_FOLDER 'folderr' - Status: SUCCESS
+LIST_FILES_AND_FOLDERS 'C:\Users\admin\Desktop\securefilemanager' - Status: FAILURE
+READ_FILE 'verynew2' - Status: SUCCESS
+RENAME_FILE 'vernew to brandnew' - Status: FAILURE
+DELETE_FILE 'verynew' - Status: FAILURE
+APPEND_TO_FILE 'verynew.txt' - Status: SUCCESS
+WRITE_FILE 'verynew.txt' - Status: SUCCESS
+READ_FILE_LINE_BY_LINE 'verynew.txt' - Status: SUCCESS
+CREATE_FILE_EXCLUSIVE 'verynew.txt' - Status: FAILURE
+READ_AND_WRITE_EXCLUSIVE 'verynew.txt' - Status: FAILURE
+READ_AND_WRITE_APPEND 'verynew.txt' - Status: SUCCESS
+FILE_INFORMATION 'verynew.txt' - Status: SUCCESS
+MOVE_FILE 'cloud to cloudsecurity' - Status: SUCCESS
+DELETE_FOLDER 'folder7' - Status: SUCCESS
+READ_AND_WRITE_APPEND 'file' - Status: FAILURE
+READ_AND_WRITE_APPEND '' - Status: FAILURE
+COPY_FOLDER 'folder45 to folder3' - Status: FAILURE
+MOVE_FOLDER 'folder45 to folder3' - Status: SUCCESS
